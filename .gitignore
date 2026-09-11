@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+
+# Build
+dist/
+build/
+*.local
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Logs / debug
+logs/
+*.log
+.manus-logs/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Test / coverage
+coverage/
+.nyc_output/
+
+# Package manager
+.pnpm-store/
+*.tgz
+
+# Archives / local dumps
+*.zip
+*.tar
+*.tar.gz
