@@ -5,6 +5,7 @@ node_modules/
 dist/
 build/
 *.local
+/index.html
 
 # Env
 .env
